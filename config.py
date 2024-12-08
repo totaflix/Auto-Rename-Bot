@@ -3,21 +3,21 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")
-    API_HASH  = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID    = os.environ.get("API_ID", "22920744")
+    API_HASH  = os.environ.get("API_HASH", "31cb93c017f265e4fa6d0ba91236b826")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7924234831:AAFo8u8Kxa-XU3YsvGkzZH-TazO-ePWWQ_8") 
 
     # database config
-    DB_NAME = os.environ.get("DB_NAME","AshutoshGoswami24")     
-    DB_URL  = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Autorename")     
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://suproboiragi2:t4GwmmrWCkUcX3Ui@cluster0.nn4hh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     BOT_UPTIME  = time.time()
     START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5659668981').split()]
     # -- FORCE_SUB_CHANNELS = ["BotzPW","AshuSupport","AshutoshGoswami24"] -- # 
-    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', 'AshutoshGoswami24,BotzPW').split(',')
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+    FORCE_SUB_CHANNELS = os.environ.get('FORCE_SUB_CHANNELS', '-1002260416399').split(',')
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002411508160"))
     PORT = int(os.environ.get("PORT", ""))
     
     # wes response configuration     
@@ -37,9 +37,9 @@ class Txt(object):
     
 ➻ Use /tutorial Command To Know How To Use Me.
 
-<b>Bot Is Made By @AshutoshGoswami24</b>
+<b>Bot Is Made By @Akash_roy_official</b>
 
-<b><a href='https://github.com/AshutoshGoswami24/Auto-Rename-Bot'>AshutoshGoswami24/Auto-Rename-Bot.git</a></b>
+<b><a href='https://github.com/'></a></b>
 """
     
     FILE_NAME_TXT = """<b><u>SETUP AUTO RENAME FORMAT</u></b>
@@ -49,7 +49,7 @@ Use These Keywords To Setup Custom File Name
 ✓ `[episode]` :- To Replace Episode Number
 ✓ `[quality]` :- To Replace Video Resolution
 
-<b>➻ Example :</b> <code> /autorename Naruto Shippuden S01[episode] [quality][Dual Audio] @AshutoshGoswami24</code>
+<b>➻ Example :</b> <code> /autorename Naruto Shippuden S01[episode] [quality][Dual Audio] @Akash_roy_official</code>
 
 <b>➻ Your Current Auto Rename Format :</b> <code>{format_template}</code> """
     
@@ -57,9 +57,9 @@ Use These Keywords To Setup Custom File Name
 <b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
 <b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
 <b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/AshutoshGoswami24'>PandaWep</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/Akash_Roy_Official'>PandaWep</a>
     
-<b>♻️ Bot Made By :</b> @AshutoshGoswami24"""
+<b>♻️ Bot Made By :</b> @Akash_Roy_Official"""
 
     
     THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
@@ -89,11 +89,11 @@ Use These Keywords To Setup Custom File Name
     
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
     
-<b>My UPI - PandaWep@ybl</b> """
+<b>My UPI - 019</b> """
     
     HELP_TXT = """<b>Hey</b> {}
     
-Joine @AshutoshGoswami24 To Help """
+Joine @nowbotupdate To Help """
 
 
 
